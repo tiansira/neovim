@@ -1,1 +1,1 @@
-# neovim
+# neovim config - lua
