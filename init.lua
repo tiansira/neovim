@@ -1,3 +1,9 @@
+--[[
+Author       : Dingsheng Tian
+Date         : 2024-03-26 17:20:27
+LastEditTime : 2024-03-26 17:20:28
+Description  : 
+--]]
 --require("plugins.plugins-setup")
 require("core.options")
 require("core.keymaps")
@@ -19,3 +25,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
+-- require("nvim-treesitter.install").prefer_git = true

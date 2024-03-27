@@ -43,3 +43,11 @@ opt.signcolumn = "yes"
 opt.scrolloff=11
 
 opt.showmode = false
+
+vim.g.lazygit_theme = true
+
+opt.laststatus = 3 -- global statusline
+
+opt.smartindent = true
+
+opt.spelllang = { "en" }
