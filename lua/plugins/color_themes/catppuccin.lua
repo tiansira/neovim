@@ -10,6 +10,7 @@ return{
   -- enabled = false,
   name = "catppuccin", 
   priority = 1000,
+    
   config = function()
     require("catppuccin").setup({
       -- flavour = "mocha"
@@ -21,7 +22,6 @@ return{
       -- transparent_background = false,
       vim.cmd.colorscheme "catppuccin"
     })
-    
   end
 
   }

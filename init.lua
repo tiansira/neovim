@@ -7,7 +7,8 @@ Description  :
 --require("plugins.plugins-setup")
 require("core.options")
 require("core.keymaps")
-
+require("core.autocmd")
+-- require("core.enabled-plugins")
 
 
 -- lazy.nvim
@@ -25,4 +26,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
--- require("nvim-treesitter.install").prefer_git = true
+
+require("nvim-treesitter.install").prefer_git = true
+
+-- require'lspconfig'.pyright.setup{}

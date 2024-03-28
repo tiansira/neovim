@@ -51,3 +51,9 @@ opt.laststatus = 3 -- global statusline
 opt.smartindent = true
 
 opt.spelllang = { "en" }
+
+
+
+
+
+

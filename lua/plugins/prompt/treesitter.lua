@@ -8,7 +8,19 @@ return{
   "nvim-treesitter/nvim-treesitter",
   version = false,
   opts = {
-    ensure_installed = { "bash", "lua", "vim", "vimdoc" },
+    ensure_installed = {
+      "bash",
+      "lua", 
+      "vim",
+      "css",
+      "dockerfile",
+      "html",
+      "json",
+      "luadoc",
+      "perl",
+      "python",
+      "yaml",
+      "vimdoc" },
     highlight = { enable = true },
   },
 }

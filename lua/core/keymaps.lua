@@ -15,3 +15,8 @@ keymap.set('n', '<leader>ff', ":Telescope find_files<CR>")
 keymap.set('n', '<leader>fg', ":Telescope live_grep<cr>")
 keymap.set('n', '<leader>fb', ":Telescope buffers<cr>")
 keymap.set('n', '<leader>fh', ":Telescope help_tags<cr>")
+
+
+-- bufferline
+keymap.set('n', '<leader>xx', ":BufferLinePickClose<CR>")
+
