@@ -2,12 +2,14 @@
 vim.g.mapleader = " "
 local keymap = vim.keymap
 
--- nvim-tree
--- keymap.set("n","<leader>t", ":NvimTreeToggle<CR>")
--- leader = space
 
 -- Neotree
 keymap.set("n","<leader>t", ":Neotree toggle<CR>")
+
+-- switch between tree and editor
+keymap.set("n","<leader><Left>", "<C-w>h")
+keymap.set("n","<leader><Right>", "<C-w>l")
+
 
 
 -- telescope
@@ -22,6 +24,3 @@ keymap.set('n', '<leader>xx', ":BufferLinePickClose<CR>")
 
 
 
--- markdown preview
-keymap.set('n', '<leader>mp', ":MarkdownPreview<cr>")
-keymap.set('n', '<leader>mpc', ":MarkdownPreviewStop<cr>")
