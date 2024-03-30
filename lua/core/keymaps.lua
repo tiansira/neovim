@@ -20,3 +20,8 @@ keymap.set('n', '<leader>fh', ":Telescope help_tags<cr>")
 -- bufferline
 keymap.set('n', '<leader>xx', ":BufferLinePickClose<CR>")
 
+
+
+-- markdown preview
+keymap.set('n', '<leader>mp', ":MarkdownPreview<cr>")
+keymap.set('n', '<leader>mpc', ":MarkdownPreviewStop<cr>")

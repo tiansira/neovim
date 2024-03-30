@@ -25,6 +25,8 @@ opt.cursorline = true
 -- 系统剪切板
 opt.clipboard:append("unnamedplus")
 
+opt.showmatch = true
+
 -- 默认新窗口右和下
 opt.splitright = true
 opt.splitbelow = true
