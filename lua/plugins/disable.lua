@@ -9,4 +9,6 @@ return{
   {"EdenEast/nightfox.nvim", enabled = false },
   {"rose-pine", enabled = false },
   {"Mofiqul/dracula.nvim", enabled = true },
+  {"nvim-neo-tree/neo-tree.nvim", enabled = true },
+  {"stevearc/oil.nvim", enabled = false },
 }

@@ -27,6 +27,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 
+
 require("nvim-treesitter.install").prefer_git = true
 
 -- require'lspconfig'.pyright.setup{}
