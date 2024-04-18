@@ -5,11 +5,18 @@ ZSH_THEME="robbyrussell"
 
 plugins=(
         git
+        z
+        zsh-autosuggestions
+        colored-man-pages
+        command-not-found
+        copypath
+        alias-finder
 #        git-prompt
   )
 
 zstyle ':omz:update' mode disabled
 source $ZSH/oh-my-zsh.sh
+
 
 ####################################################################
 # vars
@@ -21,10 +28,15 @@ mynvim="$HOME/.config/nvim"
 
 export ANSIBLE_CONFIG dtian_dir local_kick mynvim
   
+# history cmd
+HISTSIZE=300
+HISTFILE=$HOME/$USER-history.log
+HISTCONTROL=erasedups
+export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S '
+
 ####################################################################
 export PATH=/opt/Citrix/VDA/bin:/opt/synopsys/ansible/bin:$HOME/.local/bin:$my_app_url/tmux-3.3/bin:$PATH
 
-# HISTSIZE=200
 
 global_app_url="/depotbld/RHEL7.0"
 
