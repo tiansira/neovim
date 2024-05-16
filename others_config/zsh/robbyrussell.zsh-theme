@@ -6,7 +6,7 @@ local git_prompt=' $(git_prompt_info)'
 # PROMPT="%{%F{014} %n%}%{%F{204}  %m%} %f%{%F{170} %~%}${git_prompt}
 # %{%F{119}%}❱%{%F{141}%}❱%{%F{212}%}❱ %{$reset_color%}"
 
-PROMPT="%{%F{015}%} %{%F{119}%}❱%{%F{141}%}❱%{%F{212}%}❱ %{$reset_color%}"
+PROMPT="%{%F{015}%} %{%F{119}%}❱%{%F{141}%}❱%{%F{212}%}❱%{$reset_color%} "
 # PROMPT="%{%F{015} %}_ %{$reset_color%}"
 #PROMPT+=' $(git_prompt_info)'
 #PROMPT="%{%F{083}%}╭─%{%F{014}%n%}%{%F{190}@%}%{%F{204}%m%} %{%F{177}[%D%@]%}
