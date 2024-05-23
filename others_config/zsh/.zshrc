@@ -34,6 +34,9 @@ HISTFILE=$HOME/$USER-history.log
 HISTCONTROL=erasedups
 export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S '
 
+PROMPT="%F{014}%n%f%F{190}@%f%F{204}%m%f %F{119}󰧒%f %F{241}%D{%A %Y-%m-%d}%f %F{212}%f %F{241}%T%f
+%F{015}%f "
+
 ####################################################################
 export PATH=/opt/Citrix/VDA/bin:/opt/synopsys/ansible/bin:$HOME/.local/bin:$my_app_url/tmux-3.3/bin:$PATH
 
@@ -43,15 +46,15 @@ global_app_url="/depotbld/RHEL7.0"
 ####################################################################
 # module load
 source $HOME/dtian_init_module
-os_rel=`cat /etc/redhat-release| awk '{print $1}'`
-if [ $os_rel != "AlmaLinux" ]
-then
-  module load python/3.7.0
-  module load gcc/8.2.0
-fi
-module load neovim-0.9
-module load git-2.34
-module load lsf/cn58_snps
+# os_rel=`cat /etc/redhat-release| awk '{print $1}'`
+# if [ $os_rel != "AlmaLinux" ]
+# then
+#   module load python/3.7.0
+#   module load gcc/8.2.0
+# fi
+# module load neovim-0.9
+# module load git-2.34
+# module load lsf/cn58_snps
 
 ####################################################################
 # source all site hostname
