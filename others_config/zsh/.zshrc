@@ -28,11 +28,6 @@ mynvim="$HOME/.config/nvim"
 
 export ANSIBLE_CONFIG dtian_dir local_kick mynvim
   
-# history cmd
-HISTSIZE=300
-HISTFILE=$HOME/$USER-history.log
-HISTCONTROL=erasedups
-export HISTTIMEFORMAT='%Y-%m-%d %H:%M:%S '
 
 PROMPT="%F{014}%n%f%F{190}@%f%F{204}%m%f %F{119}󰧒%f %F{241}%D{%A %Y-%m-%d}%f %F{212}%f %F{241}%T%f
 %F{015}%f "
