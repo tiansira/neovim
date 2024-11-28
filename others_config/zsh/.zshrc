@@ -44,7 +44,7 @@ source $HOME/dtian_init_module
 # os_rel=`cat /etc/redhat-release| awk '{print $1}'`
 # if [ $os_rel != "AlmaLinux" ]
 # then
-#   module load python/3.7.0
+  module load python3.9
 #   module load gcc/8.2.0
 # fi
 # module load neovim-0.9
