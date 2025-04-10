@@ -74,6 +74,21 @@ ssh_trust(){
 ####################################################################
 ssh_trust
 
+source $HOME/MyScripts/shell_scripts/get_workspace_name.sh > /dev/null 2>&1
+
+if [[ $current_site == "US01" ]]
+then
+    ssh-us01odc
+elif [[ $current_site == "TW52" ]]
+then
+    ssh-tw52
+elif [[ $current_site == "TW52moea" ]]
+then
+    ssh-tw52moea
+elif [[ $current_site == "CN58Han" ]]
+then
+    ssh-dsaadmin
+fi
 
 ## unset vars
 
